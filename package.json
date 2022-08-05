@@ -1,0 +1,30 @@
+{
+  "name": "@pictionary/core",
+  "version": "1.0.0",
+  "description": "Core Module for Pictionary Server and Client",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "rimraf dist && tsc",
+    "debug": "tsc --incremental --sourceMap",
+    "test": "eslint --ext=ts,js ."
+  },
+  "keywords": [
+    "pictionary",
+    "server",
+    "client",
+    "game"
+  ],
+  "author": "SeiChuu",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "ts-jest": "^28.0.7",
+    "typescript": "^4.7.4"
+  }
+}
